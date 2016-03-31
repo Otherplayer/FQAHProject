@@ -13,9 +13,12 @@
 		8482A3C21CAD20970070931B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482A3C01CAD20970070931B /* Main.storyboard */; };
 		8482A3C41CAD20970070931B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8482A3C31CAD20970070931B /* Assets.xcassets */; };
 		8482A3C71CAD20970070931B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482A3C51CAD20970070931B /* LaunchScreen.storyboard */; };
+		8CFE62A21DC2789968B45650 /* libPods-FQAHProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1665F54E6200E53B5CFF767B /* libPods-FQAHProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1665F54E6200E53B5CFF767B /* libPods-FQAHProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FQAHProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DDF4C8F9A97C00943C4490 /* Pods-FQAHProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQAHProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQAHProject/Pods-FQAHProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8482A3B41CAD20970070931B /* FQAHProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQAHProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8482A3B81CAD20970070931B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8482A3BA1CAD20970070931B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		8482A3C31CAD20970070931B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8482A3C61CAD20970070931B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8482A3C81CAD20970070931B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F1F4121CAD216E0061AACC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A0C7D84FADD02FC0D9DE1D58 /* Pods-FQAHProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQAHProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQAHProject/Pods-FQAHProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFE62A21DC2789968B45650 /* libPods-FQAHProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,8 @@
 			children = (
 				8482A3B61CAD20970070931B /* FQAHProject */,
 				8482A3B51CAD20970070931B /* Products */,
+				96C54B16469FF05EBBECC7A4 /* Pods */,
+				E84DCC20A380336E926C4A9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +75,7 @@
 				8482A3C51CAD20970070931B /* LaunchScreen.storyboard */,
 				8482A3C81CAD20970070931B /* Info.plist */,
 				8482A3B71CAD20970070931B /* Supporting Files */,
+				84F1F4121CAD216E0061AACC /* PrefixHeader.pch */,
 			);
 			path = FQAHProject;
 			sourceTree = "<group>";
@@ -79,6 +88,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		96C54B16469FF05EBBECC7A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31DDF4C8F9A97C00943C4490 /* Pods-FQAHProject.debug.xcconfig */,
+				A0C7D84FADD02FC0D9DE1D58 /* Pods-FQAHProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E84DCC20A380336E926C4A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1665F54E6200E53B5CFF767B /* libPods-FQAHProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8482A3CB1CAD20970070931B /* Build configuration list for PBXNativeTarget "FQAHProject" */;
 			buildPhases = (
+				D556388753DA7DBE38C93D87 /* Check Pods Manifest.lock */,
 				8482A3B01CAD20970070931B /* Sources */,
 				8482A3B11CAD20970070931B /* Frameworks */,
 				8482A3B21CAD20970070931B /* Resources */,
+				D16567D8E361A608DE014F75 /* Embed Pods Frameworks */,
+				9039160B443BE40E0331B11C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9039160B443BE40E0331B11C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQAHProject/Pods-FQAHProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16567D8E361A608DE014F75 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQAHProject/Pods-FQAHProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D556388753DA7DBE38C93D87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8482A3B01CAD20970070931B /* Sources */ = {
@@ -261,8 +338,12 @@
 		};
 		8482A3CC1CAD20970070931B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DDF4C8F9A97C00943C4490 /* Pods-FQAHProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FQAHProject/PrefixHeader.pch";
 				INFOPLIST_FILE = FQAHProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.FQAHProject;
@@ -272,8 +353,12 @@
 		};
 		8482A3CD1CAD20970070931B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C7D84FADD02FC0D9DE1D58 /* Pods-FQAHProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FQAHProject/PrefixHeader.pch";
 				INFOPLIST_FILE = FQAHProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.FQAHProject;
@@ -300,6 +385,7 @@
 				8482A3CD1CAD20970070931B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

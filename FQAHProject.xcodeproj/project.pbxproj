@@ -13,6 +13,13 @@
 		8482A3C21CAD20970070931B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482A3C01CAD20970070931B /* Main.storyboard */; };
 		8482A3C41CAD20970070931B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8482A3C31CAD20970070931B /* Assets.xcassets */; };
 		8482A3C71CAD20970070931B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482A3C51CAD20970070931B /* LaunchScreen.storyboard */; };
+		84F1F4191CAD24940061AACC /* NSArray+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4181CAD24940061AACC /* NSArray+FQAHCategories.m */; };
+		84F1F41C1CAD24A30061AACC /* NSDictionary+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F41B1CAD24A30061AACC /* NSDictionary+FQAHCategories.m */; };
+		84F1F41F1CAD24DA0061AACC /* NSFileManager+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F41E1CAD24DA0061AACC /* NSFileManager+FQAHCategories.m */; };
+		84F1F4221CAD24FC0061AACC /* NSMutableString+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4211CAD24FC0061AACC /* NSMutableString+FQAHCategories.m */; };
+		84F1F4251CAD252B0061AACC /* NSObject+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4241CAD252B0061AACC /* NSObject+FQAHCategories.m */; };
+		84F1F4281CAD253C0061AACC /* NSURLRequest+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4271CAD253C0061AACC /* NSURLRequest+FQAHCategories.m */; };
+		84F1F42B1CAD254A0061AACC /* UIDevice+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F42A1CAD254A0061AACC /* UIDevice+FQAHCategories.m */; };
 		8CFE62A21DC2789968B45650 /* libPods-FQAHProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1665F54E6200E53B5CFF767B /* libPods-FQAHProject.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +37,22 @@
 		8482A3C61CAD20970070931B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8482A3C81CAD20970070931B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F1F4121CAD216E0061AACC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84F1F4151CAD229A0061AACC /* AppGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppGlobal.h; sourceTree = "<group>"; };
+		84F1F4171CAD24940061AACC /* NSArray+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FQAHCategories.h"; sourceTree = "<group>"; };
+		84F1F4181CAD24940061AACC /* NSArray+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FQAHCategories.m"; sourceTree = "<group>"; };
+		84F1F41A1CAD24A30061AACC /* NSDictionary+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FQAHCategories.h"; sourceTree = "<group>"; };
+		84F1F41B1CAD24A30061AACC /* NSDictionary+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FQAHCategories.m"; sourceTree = "<group>"; };
+		84F1F41D1CAD24DA0061AACC /* NSFileManager+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+FQAHCategories.h"; sourceTree = "<group>"; };
+		84F1F41E1CAD24DA0061AACC /* NSFileManager+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+FQAHCategories.m"; sourceTree = "<group>"; };
+		84F1F4201CAD24FC0061AACC /* NSMutableString+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+FQAHCategories.h"; sourceTree = "<group>"; };
+		84F1F4211CAD24FC0061AACC /* NSMutableString+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+FQAHCategories.m"; sourceTree = "<group>"; };
+		84F1F4231CAD252A0061AACC /* NSObject+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FQAHCategories.h"; sourceTree = "<group>"; };
+		84F1F4241CAD252B0061AACC /* NSObject+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FQAHCategories.m"; sourceTree = "<group>"; };
+		84F1F4261CAD253C0061AACC /* NSURLRequest+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+FQAHCategories.h"; sourceTree = "<group>"; };
+		84F1F4271CAD253C0061AACC /* NSURLRequest+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+FQAHCategories.m"; sourceTree = "<group>"; };
+		84F1F4291CAD254A0061AACC /* UIDevice+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FQAHCategories.h"; sourceTree = "<group>"; };
+		84F1F42A1CAD254A0061AACC /* UIDevice+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FQAHCategories.m"; sourceTree = "<group>"; };
+		84F1F42C1CAD25670061AACC /* FQAHCategoriesHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQAHCategoriesHeader.h; sourceTree = "<group>"; };
 		A0C7D84FADD02FC0D9DE1D58 /* Pods-FQAHProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQAHProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQAHProject/Pods-FQAHProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +89,9 @@
 		8482A3B61CAD20970070931B /* FQAHProject */ = {
 			isa = PBXGroup;
 			children = (
+				84F1F4141CAD22730061AACC /* Tool */,
+				84F1F4131CAD225A0061AACC /* Networking */,
+				84F1F4151CAD229A0061AACC /* AppGlobal.h */,
 				8482A3BA1CAD20970070931B /* AppDelegate.h */,
 				8482A3BB1CAD20970070931B /* AppDelegate.m */,
 				8482A3BD1CAD20970070931B /* ViewController.h */,
@@ -74,8 +100,8 @@
 				8482A3C31CAD20970070931B /* Assets.xcassets */,
 				8482A3C51CAD20970070931B /* LaunchScreen.storyboard */,
 				8482A3C81CAD20970070931B /* Info.plist */,
-				8482A3B71CAD20970070931B /* Supporting Files */,
 				84F1F4121CAD216E0061AACC /* PrefixHeader.pch */,
+				8482A3B71CAD20970070931B /* Supporting Files */,
 			);
 			path = FQAHProject;
 			sourceTree = "<group>";
@@ -86,6 +112,43 @@
 				8482A3B81CAD20970070931B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F1F4131CAD225A0061AACC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F4161CAD23960061AACC /* Categories */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		84F1F4141CAD22730061AACC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		84F1F4161CAD23960061AACC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F42C1CAD25670061AACC /* FQAHCategoriesHeader.h */,
+				84F1F4171CAD24940061AACC /* NSArray+FQAHCategories.h */,
+				84F1F4181CAD24940061AACC /* NSArray+FQAHCategories.m */,
+				84F1F41A1CAD24A30061AACC /* NSDictionary+FQAHCategories.h */,
+				84F1F41B1CAD24A30061AACC /* NSDictionary+FQAHCategories.m */,
+				84F1F41D1CAD24DA0061AACC /* NSFileManager+FQAHCategories.h */,
+				84F1F41E1CAD24DA0061AACC /* NSFileManager+FQAHCategories.m */,
+				84F1F4201CAD24FC0061AACC /* NSMutableString+FQAHCategories.h */,
+				84F1F4211CAD24FC0061AACC /* NSMutableString+FQAHCategories.m */,
+				84F1F4231CAD252A0061AACC /* NSObject+FQAHCategories.h */,
+				84F1F4241CAD252B0061AACC /* NSObject+FQAHCategories.m */,
+				84F1F4261CAD253C0061AACC /* NSURLRequest+FQAHCategories.h */,
+				84F1F4271CAD253C0061AACC /* NSURLRequest+FQAHCategories.m */,
+				84F1F4291CAD254A0061AACC /* UIDevice+FQAHCategories.h */,
+				84F1F42A1CAD254A0061AACC /* UIDevice+FQAHCategories.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		96C54B16469FF05EBBECC7A4 /* Pods */ = {
@@ -226,8 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F1F4191CAD24940061AACC /* NSArray+FQAHCategories.m in Sources */,
+				84F1F4281CAD253C0061AACC /* NSURLRequest+FQAHCategories.m in Sources */,
 				8482A3BF1CAD20970070931B /* ViewController.m in Sources */,
 				8482A3BC1CAD20970070931B /* AppDelegate.m in Sources */,
+				84F1F41C1CAD24A30061AACC /* NSDictionary+FQAHCategories.m in Sources */,
+				84F1F42B1CAD254A0061AACC /* UIDevice+FQAHCategories.m in Sources */,
+				84F1F41F1CAD24DA0061AACC /* NSFileManager+FQAHCategories.m in Sources */,
+				84F1F4251CAD252B0061AACC /* NSObject+FQAHCategories.m in Sources */,
+				84F1F4221CAD24FC0061AACC /* NSMutableString+FQAHCategories.m in Sources */,
 				8482A3B91CAD20970070931B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

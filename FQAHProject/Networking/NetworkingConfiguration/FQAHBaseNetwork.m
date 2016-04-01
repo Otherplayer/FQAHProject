@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 __无邪_. All rights reserved.
 //
 
-#import "GGBaseNetwork.h"
-#import "GGURLResponse.h"
+#import "FQAHBaseNetwork.h"
+#import "FQAHURLResponse.h"
 #import "FQAHLogger.h"
 
 #import "GGCache.h"
@@ -18,19 +18,19 @@
 
 NSString *const kIMGKey = @"kIMGKey";
 
-@interface GGBaseNetwork ()
+@interface FQAHBaseNetwork ()
 @property (nonatomic, strong)GGCache *cache;
 @property (nonatomic, strong)NSMutableDictionary *dispatchList; //请求列表
-@property (nonatomic, strong)GGBaseNetwork *shareManager;
+@property (nonatomic, strong)FQAHBaseNetwork *shareManager;
 @end
 
-@implementation GGBaseNetwork
+@implementation FQAHBaseNetwork
 #pragma mark - lifecircle
 + (instancetype)sharedNetwork {
-    static GGBaseNetwork *shareManager = nil;
+    static FQAHBaseNetwork *shareManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        shareManager =[GGBaseNetwork manager];
+        shareManager =[FQAHBaseNetwork manager];
         dispatch_queue_t requestQueue = dispatch_queue_create("com.example.MyQueue", NULL);
         shareManager.completionQueue = requestQueue;
         
@@ -115,7 +115,7 @@ NSString *const kIMGKey = @"kIMGKey";
         return;
     }
     
-    [[GGBaseNetwork sharedNetwork] POST:URLString parameters:allparameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[FQAHBaseNetwork sharedNetwork] POST:URLString parameters:allparameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         [self isSuccessedOnCallingAPIOperation:operation object:responseObject url:URLString params:allparameters memoryCache:memoryCache diskCache:diskCache completedHandler:completed];
         
@@ -129,7 +129,7 @@ NSString *const kIMGKey = @"kIMGKey";
 
 - (void)POST:(NSString *)URLString params:(id)parameters images:(NSArray *)images imageSConfig:(NSString *)serviceName completed:(GGRequestCallbackBlock)completed{
     
-    [[GGBaseNetwork sharedNetwork] POST:URLString parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+    [[FQAHBaseNetwork sharedNetwork] POST:URLString parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
         
         for (int i = 0; i < images.count; i++) {
             UIImage *image = [[images objectAtIndex:i] objectForKey:kIMGKey];
@@ -156,7 +156,7 @@ NSString *const kIMGKey = @"kIMGKey";
         return;
     }
     
-    [[GGBaseNetwork sharedNetwork] GET:URLString parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[FQAHBaseNetwork sharedNetwork] GET:URLString parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         [self isSuccessedOnCallingAPIOperation:operation object:responseObject url:URLString params:parameters memoryCache:memoryCache diskCache:diskCache completedHandler:completed];
         
@@ -176,7 +176,7 @@ NSString *const kIMGKey = @"kIMGKey";
 
 ////数据处理，请勿改动
 
-- (void)handleResponse:(GGURLResponse *)response shouldCache:(BOOL)flag diskCache:(BOOL)diskCache completedHandler:(GGRequestCallbackBlock)completed{
+- (void)handleResponse:(FQAHURLResponse *)response shouldCache:(BOOL)flag diskCache:(BOOL)diskCache completedHandler:(GGRequestCallbackBlock)completed{
     
     id fetchedRawData = nil;
     
@@ -257,7 +257,7 @@ NSString *const kIMGKey = @"kIMGKey";
     }
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        GGURLResponse *response = [[GGURLResponse alloc] initWithMemoryData:result];
+        FQAHURLResponse *response = [[FQAHURLResponse alloc] initWithMemoryData:result];
         response.requestParams = params;
         response.requestUrlStr = urlStr;
         [self handleResponse:response shouldCache:NO diskCache:YES completedHandler:completed];
@@ -275,7 +275,7 @@ NSString *const kIMGKey = @"kIMGKey";
     }
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        GGURLResponse *response = [[GGURLResponse alloc] initWithDiskData:result];
+        FQAHURLResponse *response = [[FQAHURLResponse alloc] initWithDiskData:result];
         response.requestParams = params;
         response.requestUrlStr = urlStr;
         [self handleResponse:response shouldCache:NO diskCache:NO completedHandler:completed];
@@ -288,7 +288,7 @@ NSString *const kIMGKey = @"kIMGKey";
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (void)isSuccessedOnCallingAPIOperation:(AFHTTPRequestOperation *)operation object:(id)object url:(NSString *)url params:(id)params memoryCache:(BOOL)memoryCache diskCache:(BOOL)diskCache completedHandler:(GGRequestCallbackBlock)completed{
-    GGURLResponse *response = [[GGURLResponse alloc] initWithResponse:operation.response
+    FQAHURLResponse *response = [[FQAHURLResponse alloc] initWithResponse:operation.response
                                                               request:operation.request
                                                        responseObject:object
                                                        responseString:operation.responseString

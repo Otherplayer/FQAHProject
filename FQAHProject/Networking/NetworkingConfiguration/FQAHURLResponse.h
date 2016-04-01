@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "GGNTConfiguration.h"
-@interface GGURLResponse : NSObject
+@interface FQAHURLResponse : NSObject
 @property (nonatomic, copy) NSDictionary *requestParams;        //请求参数
 @property (nonatomic, copy) NSString *requestUrlStr;            //请求接口地址
 

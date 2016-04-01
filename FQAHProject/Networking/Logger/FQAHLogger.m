@@ -14,7 +14,7 @@
     return [self logDebugInfoWithResponse:operation.response resposeString:operation.responseString request:operation.request error:operation.error];
 }
 
-+ (void)logDebugResponse:(GGURLResponse *)response{
++ (void)logDebugResponse:(FQAHURLResponse *)response{
     if (response.isCache) {
         return [self logDebugInfoWithObject:response.responseObject requestUrl:response.requestUrlStr params:response.requestParams];
     }

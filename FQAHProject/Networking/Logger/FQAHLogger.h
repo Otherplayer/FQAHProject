@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GGURLResponse.h"
+#import "FQAHURLResponse.h"
 
 @interface FQAHLogger : NSObject
 
-+ (void)logDebugResponse:(GGURLResponse *)response;
++ (void)logDebugResponse:(FQAHURLResponse *)response;
 
 + (void)logDebugOperation:(AFHTTPRequestOperation *)operation;
 

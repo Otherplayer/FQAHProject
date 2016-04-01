@@ -6,10 +6,10 @@
 //  Copyright © 2015年 hotyq. All rights reserved.
 //
 
-#import "GGBaseNetwork.h"
+#import "FQAHBaseNetwork.h"
 #import <JSONModel.h>
 
-@interface HYQNetworkingManager : GGBaseNetwork
+@interface HYQNetworkingManager : FQAHBaseNetwork
 
 + (instancetype)sharedManager;
 

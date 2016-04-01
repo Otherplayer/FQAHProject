@@ -13,7 +13,7 @@
 extern NSString *const kIMGKey;
 
 
-@interface GGBaseNetwork : AFHTTPRequestOperationManager
+@interface FQAHBaseNetwork : AFHTTPRequestOperationManager
 //*(+ (instancetype)sharedNetwork;)*//
 
 /// post 请求

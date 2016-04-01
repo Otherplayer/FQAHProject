@@ -11,7 +11,7 @@
 @interface BASEModel : JSONModel
 @property (nonatomic, assign) NSInteger state_code;
 
-@property (nonatomic, strong) id data;       //数据
+@property (nonatomic, strong) id <Optional>data;       //数据
 @property (nonatomic, strong) NSString *desc;
 
 @property (nonatomic, strong) NSString *time_stamp;

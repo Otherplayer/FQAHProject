@@ -12,7 +12,7 @@
 
 #import "FQAHCache.h"
 #import "FQAHDiskCache.h"
-#import "FQAHReachibility.h"
+//#import "FQAHReachibility.h"
 
 #import "FQAHPublicParameter.h"
 

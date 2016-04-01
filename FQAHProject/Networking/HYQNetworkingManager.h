@@ -8,6 +8,7 @@
 
 #import "FQAHBaseNetwork.h"
 #import <JSONModel.h>
+#import "FQAHReachibility.h"
 
 @interface HYQNetworkingManager : FQAHBaseNetwork
 

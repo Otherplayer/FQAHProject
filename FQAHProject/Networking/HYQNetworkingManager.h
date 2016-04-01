@@ -13,22 +13,7 @@
 
 + (instancetype)sharedManager;
 
-
-
-
 - (void)getLaunchAdvertisementCompletedHandler:(GGRequestCallbackBlock)completed;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

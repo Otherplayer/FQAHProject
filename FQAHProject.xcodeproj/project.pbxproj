@@ -81,7 +81,6 @@
 		84F1F44D1CAD294D0061AACC /* FQAHCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHCache.m; sourceTree = "<group>"; };
 		84F1F44E1CAD294D0061AACC /* FQAHCachedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHCachedObject.h; sourceTree = "<group>"; };
 		84F1F44F1CAD294D0061AACC /* FQAHCachedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHCachedObject.m; sourceTree = "<group>"; };
-		84F1F4561CAD296F0061AACC /* HYQNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQNetworkingConfig.h; sourceTree = "<group>"; };
 		84F1F4571CAD296F0061AACC /* HYQNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQNetworkingManager.h; sourceTree = "<group>"; };
 		84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQNetworkingManager.m; sourceTree = "<group>"; };
 		84F1F45A1CAD296F0061AACC /* FQAHLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHLogger.h; sourceTree = "<group>"; };
@@ -176,7 +175,6 @@
 				84F1F4621CAD296F0061AACC /* PublicParameter */,
 				84F1F4651CAD296F0061AACC /* RootModel */,
 				8472D1C31CAE4E1E0003E35A /* Reachability */,
-				84F1F4561CAD296F0061AACC /* HYQNetworkingConfig.h */,
 				84F1F4571CAD296F0061AACC /* HYQNetworkingManager.h */,
 				84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */,
 			);

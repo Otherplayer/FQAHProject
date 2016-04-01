@@ -27,7 +27,7 @@
 		84F1F4501CAD294D0061AACC /* FQAHDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4441CAD294D0061AACC /* FQAHDiskCache.m */; };
 		84F1F4541CAD294D0061AACC /* FQAHCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F44D1CAD294D0061AACC /* FQAHCache.m */; };
 		84F1F4551CAD294D0061AACC /* FQAHCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F44F1CAD294D0061AACC /* FQAHCachedObject.m */; };
-		84F1F4681CAD296F0061AACC /* HYQNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */; };
+		84F1F4681CAD296F0061AACC /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4581CAD296F0061AACC /* NetworkingManager.m */; };
 		84F1F4691CAD296F0061AACC /* FQAHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F45B1CAD296F0061AACC /* FQAHLogger.m */; };
 		84F1F46A1CAD296F0061AACC /* FQAHBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F45E1CAD296F0061AACC /* FQAHBaseNetwork.m */; };
 		84F1F46B1CAD296F0061AACC /* FQAHURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4611CAD296F0061AACC /* FQAHURLResponse.m */; };
@@ -81,8 +81,8 @@
 		84F1F44D1CAD294D0061AACC /* FQAHCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHCache.m; sourceTree = "<group>"; };
 		84F1F44E1CAD294D0061AACC /* FQAHCachedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHCachedObject.h; sourceTree = "<group>"; };
 		84F1F44F1CAD294D0061AACC /* FQAHCachedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHCachedObject.m; sourceTree = "<group>"; };
-		84F1F4571CAD296F0061AACC /* HYQNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQNetworkingManager.h; sourceTree = "<group>"; };
-		84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQNetworkingManager.m; sourceTree = "<group>"; };
+		84F1F4571CAD296F0061AACC /* NetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
+		84F1F4581CAD296F0061AACC /* NetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
 		84F1F45A1CAD296F0061AACC /* FQAHLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHLogger.h; sourceTree = "<group>"; };
 		84F1F45B1CAD296F0061AACC /* FQAHLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHLogger.m; sourceTree = "<group>"; };
 		84F1F45D1CAD296F0061AACC /* FQAHBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHBaseNetwork.h; sourceTree = "<group>"; };
@@ -175,8 +175,8 @@
 				84F1F4621CAD296F0061AACC /* PublicParameter */,
 				84F1F4651CAD296F0061AACC /* RootModel */,
 				8472D1C31CAE4E1E0003E35A /* Reachability */,
-				84F1F4571CAD296F0061AACC /* HYQNetworkingManager.h */,
-				84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */,
+				84F1F4571CAD296F0061AACC /* NetworkingManager.h */,
+				84F1F4581CAD296F0061AACC /* NetworkingManager.m */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -428,7 +428,7 @@
 				8482A3BF1CAD20970070931B /* ViewController.m in Sources */,
 				84F1F46A1CAD296F0061AACC /* FQAHBaseNetwork.m in Sources */,
 				84F1F46C1CAD296F0061AACC /* FQAHPublicParameter.m in Sources */,
-				84F1F4681CAD296F0061AACC /* HYQNetworkingManager.m in Sources */,
+				84F1F4681CAD296F0061AACC /* NetworkingManager.m in Sources */,
 				84F1F4691CAD296F0061AACC /* FQAHLogger.m in Sources */,
 				8472D1C61CAE4E3B0003E35A /* FQAHReachibility.m in Sources */,
 				8482A3BC1CAD20970070931B /* AppDelegate.m in Sources */,

@@ -10,7 +10,7 @@
 #import <JSONModel.h>
 #import "FQAHReachibility.h"
 
-@interface HYQNetworkingManager : FQAHBaseNetwork
+@interface NetworkingManager : FQAHBaseNetwork
 
 + (instancetype)sharedManager;
 

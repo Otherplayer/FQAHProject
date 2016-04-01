@@ -23,7 +23,7 @@
     
 }
 - (IBAction)senderAction:(id)sender {
-    [[HYQNetworkingManager sharedManager] getLaunchAdvertisementCompletedHandler:^(BOOL success, NSString *errDesc, BASEModel *model) {
+    [[NetworkingManager sharedManager] getLaunchAdvertisementCompletedHandler:^(BOOL success, NSString *errDesc, BASEModel *model) {
         
     }];
 }

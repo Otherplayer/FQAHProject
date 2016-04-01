@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GGDiskCachedObject.h"
+#import "FQAHDiskCachedObject.h"
 
 @interface FQAHDiskCache : NSObject
 

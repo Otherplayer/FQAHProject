@@ -161,12 +161,12 @@
 		84F1F4131CAD225A0061AACC /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				84F1F4161CAD23960061AACC /* Categories */,
+				84F1F42D1CAD27470061AACC /* Cache */,
 				84F1F4591CAD296F0061AACC /* Logger */,
 				84F1F45C1CAD296F0061AACC /* NetworkingConfiguration */,
 				84F1F4621CAD296F0061AACC /* PublicParameter */,
 				84F1F4651CAD296F0061AACC /* RootModel */,
-				84F1F42D1CAD27470061AACC /* Cache */,
-				84F1F4161CAD23960061AACC /* Categories */,
 				84F1F46F1CAD2A0C0061AACC /* FQAHReachibility.h */,
 				84F1F4701CAD2A0C0061AACC /* FQAHReachibility.m */,
 				84F1F46E1CAD29E90061AACC /* NetEnvironmentConfig.h */,

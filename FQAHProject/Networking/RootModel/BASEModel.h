@@ -11,13 +11,10 @@
 @interface BASEModel : JSONModel
 @property (nonatomic, assign) NSInteger state_code;
 
-@property (nonatomic, strong) id <Optional>data;       //数据
+@property (nonatomic, strong) id data;       //数据
+@property (nonatomic, strong) NSString *desc;
 
-//@property (nonatomic, strong) NSString *description;//避免出现与iOS字段重名这样的问题
-@property (nonatomic, strong) NSString <Optional>*desc;
-
-@property (nonatomic, strong) NSString <Optional>*time_stamp;
-@property (nonatomic, strong) NSString <Optional>*comment_count;
+@property (nonatomic, strong) NSString *time_stamp;
 
 //+ (void)initKeyMapper;
 

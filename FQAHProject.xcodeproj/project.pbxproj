@@ -20,6 +20,20 @@
 		84F1F4251CAD252B0061AACC /* NSObject+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4241CAD252B0061AACC /* NSObject+FQAHCategories.m */; };
 		84F1F4281CAD253C0061AACC /* NSURLRequest+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4271CAD253C0061AACC /* NSURLRequest+FQAHCategories.m */; };
 		84F1F42B1CAD254A0061AACC /* UIDevice+FQAHCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F42A1CAD254A0061AACC /* UIDevice+FQAHCategories.m */; };
+		84F1F4501CAD294D0061AACC /* GGDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4441CAD294D0061AACC /* GGDiskCache.m */; };
+		84F1F4511CAD294D0061AACC /* GGDiskCachedObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4461CAD294D0061AACC /* GGDiskCachedObject+CoreDataProperties.m */; };
+		84F1F4521CAD294D0061AACC /* GGDiskCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4481CAD294D0061AACC /* GGDiskCachedObject.m */; };
+		84F1F4531CAD294D0061AACC /* GGNetworking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4491CAD294D0061AACC /* GGNetworking.xcdatamodeld */; };
+		84F1F4541CAD294D0061AACC /* GGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F44D1CAD294D0061AACC /* GGCache.m */; };
+		84F1F4551CAD294D0061AACC /* GGCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F44F1CAD294D0061AACC /* GGCachedObject.m */; };
+		84F1F4681CAD296F0061AACC /* HYQNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */; };
+		84F1F4691CAD296F0061AACC /* FQAHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F45B1CAD296F0061AACC /* FQAHLogger.m */; };
+		84F1F46A1CAD296F0061AACC /* GGBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F45E1CAD296F0061AACC /* GGBaseNetwork.m */; };
+		84F1F46B1CAD296F0061AACC /* GGURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4611CAD296F0061AACC /* GGURLResponse.m */; };
+		84F1F46C1CAD296F0061AACC /* HYQPublicParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4641CAD296F0061AACC /* HYQPublicParameter.m */; };
+		84F1F46D1CAD296F0061AACC /* HYQBASEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4671CAD296F0061AACC /* HYQBASEModel.m */; };
+		84F1F4711CAD2A0C0061AACC /* FQAHReachibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4701CAD2A0C0061AACC /* FQAHReachibility.m */; };
+		84F1F4731CAD2AB10061AACC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F1F4721CAD2AB10061AACC /* CoreData.framework */; };
 		8CFE62A21DC2789968B45650 /* libPods-FQAHProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1665F54E6200E53B5CFF767B /* libPods-FQAHProject.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +67,35 @@
 		84F1F4291CAD254A0061AACC /* UIDevice+FQAHCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FQAHCategories.h"; sourceTree = "<group>"; };
 		84F1F42A1CAD254A0061AACC /* UIDevice+FQAHCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FQAHCategories.m"; sourceTree = "<group>"; };
 		84F1F42C1CAD25670061AACC /* FQAHCategoriesHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQAHCategoriesHeader.h; sourceTree = "<group>"; };
+		84F1F4431CAD294D0061AACC /* GGDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGDiskCache.h; sourceTree = "<group>"; };
+		84F1F4441CAD294D0061AACC /* GGDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGDiskCache.m; sourceTree = "<group>"; };
+		84F1F4451CAD294D0061AACC /* GGDiskCachedObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GGDiskCachedObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84F1F4461CAD294D0061AACC /* GGDiskCachedObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GGDiskCachedObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84F1F4471CAD294D0061AACC /* GGDiskCachedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGDiskCachedObject.h; sourceTree = "<group>"; };
+		84F1F4481CAD294D0061AACC /* GGDiskCachedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGDiskCachedObject.m; sourceTree = "<group>"; };
+		84F1F44A1CAD294D0061AACC /* GGNetworking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GGNetworking.xcdatamodel; sourceTree = "<group>"; };
+		84F1F44C1CAD294D0061AACC /* GGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCache.h; sourceTree = "<group>"; };
+		84F1F44D1CAD294D0061AACC /* GGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCache.m; sourceTree = "<group>"; };
+		84F1F44E1CAD294D0061AACC /* GGCachedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCachedObject.h; sourceTree = "<group>"; };
+		84F1F44F1CAD294D0061AACC /* GGCachedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCachedObject.m; sourceTree = "<group>"; };
+		84F1F4561CAD296F0061AACC /* HYQNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQNetworkingConfig.h; sourceTree = "<group>"; };
+		84F1F4571CAD296F0061AACC /* HYQNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQNetworkingManager.h; sourceTree = "<group>"; };
+		84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQNetworkingManager.m; sourceTree = "<group>"; };
+		84F1F45A1CAD296F0061AACC /* FQAHLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHLogger.h; sourceTree = "<group>"; };
+		84F1F45B1CAD296F0061AACC /* FQAHLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHLogger.m; sourceTree = "<group>"; };
+		84F1F45D1CAD296F0061AACC /* GGBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBaseNetwork.h; sourceTree = "<group>"; };
+		84F1F45E1CAD296F0061AACC /* GGBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBaseNetwork.m; sourceTree = "<group>"; };
+		84F1F45F1CAD296F0061AACC /* GGNTConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGNTConfiguration.h; sourceTree = "<group>"; };
+		84F1F4601CAD296F0061AACC /* GGURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGURLResponse.h; sourceTree = "<group>"; };
+		84F1F4611CAD296F0061AACC /* GGURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGURLResponse.m; sourceTree = "<group>"; };
+		84F1F4631CAD296F0061AACC /* HYQPublicParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQPublicParameter.h; sourceTree = "<group>"; };
+		84F1F4641CAD296F0061AACC /* HYQPublicParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQPublicParameter.m; sourceTree = "<group>"; };
+		84F1F4661CAD296F0061AACC /* HYQBASEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQBASEModel.h; sourceTree = "<group>"; };
+		84F1F4671CAD296F0061AACC /* HYQBASEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQBASEModel.m; sourceTree = "<group>"; };
+		84F1F46E1CAD29E90061AACC /* NetEnvironmentConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetEnvironmentConfig.h; sourceTree = "<group>"; };
+		84F1F46F1CAD2A0C0061AACC /* FQAHReachibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHReachibility.h; sourceTree = "<group>"; };
+		84F1F4701CAD2A0C0061AACC /* FQAHReachibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHReachibility.m; sourceTree = "<group>"; };
+		84F1F4721CAD2AB10061AACC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A0C7D84FADD02FC0D9DE1D58 /* Pods-FQAHProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQAHProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQAHProject/Pods-FQAHProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F1F4731CAD2AB10061AACC /* CoreData.framework in Frameworks */,
 				8CFE62A21DC2789968B45650 /* libPods-FQAHProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,7 +161,18 @@
 		84F1F4131CAD225A0061AACC /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				84F1F4591CAD296F0061AACC /* Logger */,
+				84F1F45C1CAD296F0061AACC /* NetworkingConfiguration */,
+				84F1F4621CAD296F0061AACC /* PublicParameter */,
+				84F1F4651CAD296F0061AACC /* RootModel */,
+				84F1F42D1CAD27470061AACC /* Cache */,
 				84F1F4161CAD23960061AACC /* Categories */,
+				84F1F46F1CAD2A0C0061AACC /* FQAHReachibility.h */,
+				84F1F4701CAD2A0C0061AACC /* FQAHReachibility.m */,
+				84F1F46E1CAD29E90061AACC /* NetEnvironmentConfig.h */,
+				84F1F4561CAD296F0061AACC /* HYQNetworkingConfig.h */,
+				84F1F4571CAD296F0061AACC /* HYQNetworkingManager.h */,
+				84F1F4581CAD296F0061AACC /* HYQNetworkingManager.m */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -151,6 +206,79 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		84F1F42D1CAD27470061AACC /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F4421CAD294D0061AACC /* DiskCache */,
+				84F1F44B1CAD294D0061AACC /* MemoryCache */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		84F1F4421CAD294D0061AACC /* DiskCache */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F4431CAD294D0061AACC /* GGDiskCache.h */,
+				84F1F4441CAD294D0061AACC /* GGDiskCache.m */,
+				84F1F4451CAD294D0061AACC /* GGDiskCachedObject+CoreDataProperties.h */,
+				84F1F4461CAD294D0061AACC /* GGDiskCachedObject+CoreDataProperties.m */,
+				84F1F4471CAD294D0061AACC /* GGDiskCachedObject.h */,
+				84F1F4481CAD294D0061AACC /* GGDiskCachedObject.m */,
+				84F1F4491CAD294D0061AACC /* GGNetworking.xcdatamodeld */,
+			);
+			path = DiskCache;
+			sourceTree = "<group>";
+		};
+		84F1F44B1CAD294D0061AACC /* MemoryCache */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F44C1CAD294D0061AACC /* GGCache.h */,
+				84F1F44D1CAD294D0061AACC /* GGCache.m */,
+				84F1F44E1CAD294D0061AACC /* GGCachedObject.h */,
+				84F1F44F1CAD294D0061AACC /* GGCachedObject.m */,
+			);
+			path = MemoryCache;
+			sourceTree = "<group>";
+		};
+		84F1F4591CAD296F0061AACC /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F45A1CAD296F0061AACC /* FQAHLogger.h */,
+				84F1F45B1CAD296F0061AACC /* FQAHLogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		84F1F45C1CAD296F0061AACC /* NetworkingConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F45D1CAD296F0061AACC /* GGBaseNetwork.h */,
+				84F1F45E1CAD296F0061AACC /* GGBaseNetwork.m */,
+				84F1F45F1CAD296F0061AACC /* GGNTConfiguration.h */,
+				84F1F4601CAD296F0061AACC /* GGURLResponse.h */,
+				84F1F4611CAD296F0061AACC /* GGURLResponse.m */,
+			);
+			path = NetworkingConfiguration;
+			sourceTree = "<group>";
+		};
+		84F1F4621CAD296F0061AACC /* PublicParameter */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F4631CAD296F0061AACC /* HYQPublicParameter.h */,
+				84F1F4641CAD296F0061AACC /* HYQPublicParameter.m */,
+			);
+			path = PublicParameter;
+			sourceTree = "<group>";
+		};
+		84F1F4651CAD296F0061AACC /* RootModel */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F4661CAD296F0061AACC /* HYQBASEModel.h */,
+				84F1F4671CAD296F0061AACC /* HYQBASEModel.m */,
+			);
+			path = RootModel;
+			sourceTree = "<group>";
+		};
 		96C54B16469FF05EBBECC7A4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +291,7 @@
 		E84DCC20A380336E926C4A9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84F1F4721CAD2AB10061AACC /* CoreData.framework */,
 				1665F54E6200E53B5CFF767B /* libPods-FQAHProject.a */,
 			);
 			name = Frameworks;
@@ -290,13 +419,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F1F4191CAD24940061AACC /* NSArray+FQAHCategories.m in Sources */,
+				84F1F4521CAD294D0061AACC /* GGDiskCachedObject.m in Sources */,
 				84F1F4281CAD253C0061AACC /* NSURLRequest+FQAHCategories.m in Sources */,
+				84F1F46D1CAD296F0061AACC /* HYQBASEModel.m in Sources */,
 				8482A3BF1CAD20970070931B /* ViewController.m in Sources */,
+				84F1F46A1CAD296F0061AACC /* GGBaseNetwork.m in Sources */,
+				84F1F46C1CAD296F0061AACC /* HYQPublicParameter.m in Sources */,
+				84F1F4681CAD296F0061AACC /* HYQNetworkingManager.m in Sources */,
+				84F1F4691CAD296F0061AACC /* FQAHLogger.m in Sources */,
 				8482A3BC1CAD20970070931B /* AppDelegate.m in Sources */,
+				84F1F4711CAD2A0C0061AACC /* FQAHReachibility.m in Sources */,
+				84F1F4531CAD294D0061AACC /* GGNetworking.xcdatamodeld in Sources */,
+				84F1F4501CAD294D0061AACC /* GGDiskCache.m in Sources */,
+				84F1F46B1CAD296F0061AACC /* GGURLResponse.m in Sources */,
+				84F1F4511CAD294D0061AACC /* GGDiskCachedObject+CoreDataProperties.m in Sources */,
+				84F1F4551CAD294D0061AACC /* GGCachedObject.m in Sources */,
 				84F1F41C1CAD24A30061AACC /* NSDictionary+FQAHCategories.m in Sources */,
 				84F1F42B1CAD254A0061AACC /* UIDevice+FQAHCategories.m in Sources */,
 				84F1F41F1CAD24DA0061AACC /* NSFileManager+FQAHCategories.m in Sources */,
 				84F1F4251CAD252B0061AACC /* NSObject+FQAHCategories.m in Sources */,
+				84F1F4541CAD294D0061AACC /* GGCache.m in Sources */,
 				84F1F4221CAD24FC0061AACC /* NSMutableString+FQAHCategories.m in Sources */,
 				8482A3B91CAD20970070931B /* main.m in Sources */,
 			);
@@ -415,6 +557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FQAHProject/PrefixHeader.pch";
 				INFOPLIST_FILE = FQAHProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.FQAHProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +573,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FQAHProject/PrefixHeader.pch";
 				INFOPLIST_FILE = FQAHProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fqah.FQAHProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +602,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84F1F4491CAD294D0061AACC /* GGNetworking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84F1F44A1CAD294D0061AACC /* GGNetworking.xcdatamodel */,
+			);
+			currentVersion = 84F1F44A1CAD294D0061AACC /* GGNetworking.xcdatamodel */;
+			path = GGNetworking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8482A3AC1CAD20970070931B /* Project object */;
 }

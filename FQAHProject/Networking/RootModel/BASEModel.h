@@ -8,7 +8,7 @@
 
 #import <JSONModel/JSONModel.h>
 
-@interface HYQBASEModel : JSONModel
+@interface BASEModel : JSONModel
 @property (nonatomic, assign) NSInteger state_code;
 
 @property (nonatomic, strong) id <Optional>data;       //数据

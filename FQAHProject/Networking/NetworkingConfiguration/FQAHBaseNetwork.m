@@ -10,8 +10,8 @@
 #import "FQAHURLResponse.h"
 #import "FQAHLogger.h"
 
-#import "GGCache.h"
-#import "GGDiskCache.h"
+#import "FQAHCache.h"
+#import "FQAHDiskCache.h"
 #import "FQAHReachibility.h"
 
 #import "FQAHPublicParameter.h"
@@ -19,7 +19,7 @@
 NSString *const kIMGKey = @"kIMGKey";
 
 @interface FQAHBaseNetwork ()
-@property (nonatomic, strong)GGCache *cache;
+@property (nonatomic, strong)FQAHCache *cache;
 @property (nonatomic, strong)NSMutableDictionary *dispatchList; //请求列表
 @property (nonatomic, strong)FQAHBaseNetwork *shareManager;
 @end
@@ -84,9 +84,9 @@ NSString *const kIMGKey = @"kIMGKey";
     return _dispatchList;
 }
 
-- (GGCache *)cache{
+- (FQAHCache *)cache{
     if (_cache == nil) {
-        _cache = [GGCache sharedInstance];
+        _cache = [FQAHCache sharedInstance];
     }
     return _cache;
 }
@@ -213,7 +213,7 @@ NSString *const kIMGKey = @"kIMGKey";
     
 #ifdef SHOULD_USE_JSONMODEL
     NSError *jsonModelError = nil;
-    HYQBASEModel *baseModel = [[HYQBASEModel alloc] initWithDictionary:object error:&jsonModelError];
+    BASEModel *baseModel = [[BASEModel alloc] initWithDictionary:object error:&jsonModelError];
     if (jsonModelError) {
         completed(NO, @"数据解析出错了", nil);
         NSLog(@"*************************数据解析错误:%@********************************************",jsonModelError);
@@ -268,7 +268,7 @@ NSString *const kIMGKey = @"kIMGKey";
 
 - (BOOL)hasDiskCacheWithURLStr:(NSString *)urlStr Params:(NSDictionary *)params completedHandler:(GGRequestCallbackBlock)completed{
     
-    NSData *result = [[GGDiskCache sharedInstance] fetchCachedDataWithURLStr:urlStr params:params];
+    NSData *result = [[FQAHDiskCache sharedInstance] fetchCachedDataWithURLStr:urlStr params:params];
     
     if (result == nil) {
         return NO;

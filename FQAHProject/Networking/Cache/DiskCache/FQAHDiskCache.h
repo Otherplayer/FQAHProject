@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "GGDiskCachedObject.h"
 
-@interface GGDiskCache : NSObject
+@interface FQAHDiskCache : NSObject
 
 + (instancetype)sharedInstance;
 

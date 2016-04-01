@@ -6,21 +6,21 @@
 //  Copyright © 2015年 __无邪_. All rights reserved.
 //
 
-#import "GGDiskCache.h"
+#import "FQAHDiskCache.h"
 #import "FQAHNTConfiguration.h"
 
-@interface GGDiskCache ()
+@interface FQAHDiskCache ()
 
 @end
 
-@implementation GGDiskCache
+@implementation FQAHDiskCache
 
 #pragma mark - life cycle
 + (instancetype)sharedInstance{
     static dispatch_once_t onceToken;
-    static GGDiskCache *sharedInstance;
+    static FQAHDiskCache *sharedInstance;
     dispatch_once(&onceToken, ^{
-        sharedInstance = [[GGDiskCache alloc] init];
+        sharedInstance = [[FQAHDiskCache alloc] init];
     });
     return sharedInstance;
 }

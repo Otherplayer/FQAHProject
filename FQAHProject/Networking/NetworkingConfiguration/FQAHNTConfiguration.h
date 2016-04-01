@@ -12,7 +12,7 @@
 
 #define SHOULD_USE_JSONMODEL   /*是否调用JSONModel*/
 
-#import "HYQBASEModel.h"
+#import "BASEModel.h"
 
 
 
@@ -60,7 +60,7 @@ typedef NS_ENUM(NSUInteger, GGURLResponseStatus){
 #ifdef SHOULD_USE_JSONMODEL
 
 typedef void (^HYQNetWorkBlock) (BOOL success,id modelObject);
-typedef void (^GGRequestCallbackBlock)(BOOL success, NSString *errDesc, HYQBASEModel *model);
+typedef void (^GGRequestCallbackBlock)(BOOL success, NSString *errDesc, BASEModel *model);
 typedef void (^HYQNetWorkBlock) (BOOL success,id modelObject);
 #else
 typedef void (^GGRequestCallbackBlock)(BOOL success, NSString *errDesc, id responseData);

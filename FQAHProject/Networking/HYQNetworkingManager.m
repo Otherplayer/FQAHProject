@@ -35,7 +35,7 @@ NSString *const kAPI_SIZE = @"size";
 
 - (void)getLaunchAdvertisementCompletedHandler:(GGRequestCallbackBlock)completed{
     
-    [self POST:kAPI_AD_Launch params:nil memoryCache:NO diskCache:NO completed:completed];
+    [self POST:kAPI_AD_Launch params:nil memoryCache:YES diskCache:YES completed:completed];
 }
 
 

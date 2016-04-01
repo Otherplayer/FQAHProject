@@ -19,10 +19,13 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
+
+    
+}
+- (IBAction)senderAction:(id)sender {
     [[HYQNetworkingManager sharedManager] getLaunchAdvertisementCompletedHandler:^(BOOL success, NSString *errDesc, BASEModel *model) {
         
     }];
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -242,7 +242,7 @@ NSString *const kIMGKey = @"kIMGKey";
     // 在网络未连接时是否需要从本地磁盘读数据
     BOOL isCannotReachable = ![FQAHReachibility sharedInstance].isReachable;
     if (diskCache && isCannotReachable && [self hasDiskCacheWithURLStr:URLString Params:parameters completedHandler:completed]) {
-        return NO;/////////
+        return YES;
     }
     return NO;
 }

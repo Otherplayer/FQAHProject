@@ -30,7 +30,7 @@
 		84F1F4691CAD296F0061AACC /* FQAHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F45B1CAD296F0061AACC /* FQAHLogger.m */; };
 		84F1F46A1CAD296F0061AACC /* FQAHBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F45E1CAD296F0061AACC /* FQAHBaseNetwork.m */; };
 		84F1F46B1CAD296F0061AACC /* FQAHURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4611CAD296F0061AACC /* FQAHURLResponse.m */; };
-		84F1F46C1CAD296F0061AACC /* HYQPublicParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4641CAD296F0061AACC /* HYQPublicParameter.m */; };
+		84F1F46C1CAD296F0061AACC /* FQAHPublicParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4641CAD296F0061AACC /* FQAHPublicParameter.m */; };
 		84F1F46D1CAD296F0061AACC /* HYQBASEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4671CAD296F0061AACC /* HYQBASEModel.m */; };
 		84F1F4711CAD2A0C0061AACC /* FQAHReachibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1F4701CAD2A0C0061AACC /* FQAHReachibility.m */; };
 		84F1F4731CAD2AB10061AACC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F1F4721CAD2AB10061AACC /* CoreData.framework */; };
@@ -40,6 +40,7 @@
 /* Begin PBXFileReference section */
 		1665F54E6200E53B5CFF767B /* libPods-FQAHProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FQAHProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DDF4C8F9A97C00943C4490 /* Pods-FQAHProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQAHProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQAHProject/Pods-FQAHProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8472D1B61CAE47490003E35A /* FQAHNTConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQAHNTConfiguration.h; sourceTree = "<group>"; };
 		8482A3B41CAD20970070931B /* FQAHProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQAHProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8482A3B81CAD20970070931B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8482A3BA1CAD20970070931B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,11 +86,10 @@
 		84F1F45B1CAD296F0061AACC /* FQAHLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHLogger.m; sourceTree = "<group>"; };
 		84F1F45D1CAD296F0061AACC /* FQAHBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHBaseNetwork.h; sourceTree = "<group>"; };
 		84F1F45E1CAD296F0061AACC /* FQAHBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHBaseNetwork.m; sourceTree = "<group>"; };
-		84F1F45F1CAD296F0061AACC /* GGNTConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGNTConfiguration.h; sourceTree = "<group>"; };
 		84F1F4601CAD296F0061AACC /* FQAHURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHURLResponse.h; sourceTree = "<group>"; };
 		84F1F4611CAD296F0061AACC /* FQAHURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHURLResponse.m; sourceTree = "<group>"; };
-		84F1F4631CAD296F0061AACC /* HYQPublicParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQPublicParameter.h; sourceTree = "<group>"; };
-		84F1F4641CAD296F0061AACC /* HYQPublicParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQPublicParameter.m; sourceTree = "<group>"; };
+		84F1F4631CAD296F0061AACC /* FQAHPublicParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQAHPublicParameter.h; sourceTree = "<group>"; };
+		84F1F4641CAD296F0061AACC /* FQAHPublicParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQAHPublicParameter.m; sourceTree = "<group>"; };
 		84F1F4661CAD296F0061AACC /* HYQBASEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQBASEModel.h; sourceTree = "<group>"; };
 		84F1F4671CAD296F0061AACC /* HYQBASEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQBASEModel.m; sourceTree = "<group>"; };
 		84F1F46E1CAD29E90061AACC /* NetEnvironmentConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetEnvironmentConfig.h; sourceTree = "<group>"; };
@@ -254,9 +254,9 @@
 			children = (
 				84F1F45D1CAD296F0061AACC /* FQAHBaseNetwork.h */,
 				84F1F45E1CAD296F0061AACC /* FQAHBaseNetwork.m */,
-				84F1F45F1CAD296F0061AACC /* GGNTConfiguration.h */,
 				84F1F4601CAD296F0061AACC /* FQAHURLResponse.h */,
 				84F1F4611CAD296F0061AACC /* FQAHURLResponse.m */,
+				8472D1B61CAE47490003E35A /* FQAHNTConfiguration.h */,
 			);
 			path = NetworkingConfiguration;
 			sourceTree = "<group>";
@@ -264,8 +264,8 @@
 		84F1F4621CAD296F0061AACC /* PublicParameter */ = {
 			isa = PBXGroup;
 			children = (
-				84F1F4631CAD296F0061AACC /* HYQPublicParameter.h */,
-				84F1F4641CAD296F0061AACC /* HYQPublicParameter.m */,
+				84F1F4631CAD296F0061AACC /* FQAHPublicParameter.h */,
+				84F1F4641CAD296F0061AACC /* FQAHPublicParameter.m */,
 			);
 			path = PublicParameter;
 			sourceTree = "<group>";
@@ -424,7 +424,7 @@
 				84F1F46D1CAD296F0061AACC /* HYQBASEModel.m in Sources */,
 				8482A3BF1CAD20970070931B /* ViewController.m in Sources */,
 				84F1F46A1CAD296F0061AACC /* FQAHBaseNetwork.m in Sources */,
-				84F1F46C1CAD296F0061AACC /* HYQPublicParameter.m in Sources */,
+				84F1F46C1CAD296F0061AACC /* FQAHPublicParameter.m in Sources */,
 				84F1F4681CAD296F0061AACC /* HYQNetworkingManager.m in Sources */,
 				84F1F4691CAD296F0061AACC /* FQAHLogger.m in Sources */,
 				8482A3BC1CAD20970070931B /* AppDelegate.m in Sources */,

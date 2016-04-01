@@ -7,7 +7,7 @@
 //
 
 #import "GGCache.h"
-#import "GGNTConfiguration.h"
+#import "FQAHNTConfiguration.h"
 @interface GGCache ()
 
 @property (nonatomic, strong) NSCache *cache;

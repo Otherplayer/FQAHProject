@@ -7,7 +7,7 @@
 //
 
 #import "GGDiskCache.h"
-#import "GGNTConfiguration.h"
+#import "FQAHNTConfiguration.h"
 
 @interface GGDiskCache ()
 

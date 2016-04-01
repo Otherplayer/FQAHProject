@@ -1,17 +1,19 @@
 //
-//  GGNTConfiguration.h
-//  GGNetwoking
+//  FQAHNTConfiguration.h
+//  FQAHProject
 //
-//  Created by __无邪_ on 15/8/27.
-//  Copyright (c) 2015年 __无邪_. All rights reserved.
+//  Created by __无邪_ on 4/1/16.
+//  Copyright © 2016 fqah. All rights reserved.
 //
 
-#ifndef GGNetwoking_GGNTConfiguration_h
-#define GGNetwoking_GGNTConfiguration_h
+#ifndef FQAHNTConfiguration_h
+#define FQAHNTConfiguration_h
+
 
 #define SHOULD_USE_JSONMODEL   /*是否调用JSONModel*/
 
 #import "HYQBASEModel.h"
+
 
 
 ////////////////////////////////////////
@@ -66,7 +68,4 @@ typedef void (^GGRequestCallbackBlock)(BOOL success, NSString *errDesc, id respo
 
 //typedef void (^GGRequestTimeoutBlock)(NSInteger errCode, NSString *localizedDescription);
 
-
-
-
-#endif
+#endif /* FQAHNTConfiguration_h */

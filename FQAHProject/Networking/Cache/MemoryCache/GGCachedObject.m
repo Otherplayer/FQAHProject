@@ -7,7 +7,7 @@
 //
 
 #import "GGCachedObject.h"
-#import "GGNTConfiguration.h"
+#import "FQAHNTConfiguration.h"
 @interface GGCachedObject ()
 
 @property (nonatomic, copy, readwrite) NSData *content;

@@ -14,7 +14,7 @@
 #import "GGDiskCache.h"
 #import "FQAHReachibility.h"
 
-#import "HYQPublicParameter.h"
+#import "FQAHPublicParameter.h"
 
 NSString *const kIMGKey = @"kIMGKey";
 
@@ -101,7 +101,7 @@ NSString *const kIMGKey = @"kIMGKey";
 ////网络请求,请勿改动
 
 - (void)POST:(NSString *)URLString params:(id)parameters memoryCache:(BOOL)memoryCache diskCache:(BOOL)diskCache completed:(GGRequestCallbackBlock)completed{
-    NSMutableDictionary *allparameters = [[NSMutableDictionary alloc] initWithDictionary:[HYQPublicParameter publicParameter]];
+    NSMutableDictionary *allparameters = [[NSMutableDictionary alloc] initWithDictionary:[FQAHPublicParameter publicParameter]];
     //在这里统一添加公共参数进来
     if (parameters) {
         for (NSString *key in [parameters allKeys]) {

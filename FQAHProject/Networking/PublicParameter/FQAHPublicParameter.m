@@ -6,10 +6,10 @@
 //  Copyright © 2015 fqah. All rights reserved.
 //
 
-#import "HYQPublicParameter.h"
+#import "FQAHPublicParameter.h"
 //#import <AdSupport/ASIdentifierManager.h>
 //#import "UIDevice+Hardware.h"
-@implementation HYQPublicParameter
+@implementation FQAHPublicParameter
 
 
 //+ (instancetype)sharedInstance{

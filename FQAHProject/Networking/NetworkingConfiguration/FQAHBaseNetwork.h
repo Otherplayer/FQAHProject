@@ -7,7 +7,7 @@
 //
 
 #import "AFHTTPRequestOperationManager.h"
-#import "GGNTConfiguration.h"
+#import "FQAHNTConfiguration.h"
 #import "HYQBASEModel.h"
 
 extern NSString *const kIMGKey;

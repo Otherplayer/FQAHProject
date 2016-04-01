@@ -12,22 +12,14 @@
 @implementation FQAHPublicParameter
 
 
-//+ (instancetype)sharedInstance{
-//    static dispatch_once_t onceToken;
-//    static HYQPublicParameter *paramter;
-//    dispatch_once(&onceToken, ^{
-//        paramter = [[HYQPublicParameter alloc] init];
-//    });
-//    return paramter;
-//}
-
-//
-//- (NSDictionary *)parameters{
-//    if (!_parameters || _parameters.allKeys.count == 0) {
-//        _parameters = [[self paramtersInfo] copy];
-//    }
-//    return _parameters;
-//}
++ (instancetype)sharedInstance{
+    static dispatch_once_t onceToken;
+    static FQAHPublicParameter *paramter;
+    dispatch_once(&onceToken, ^{
+        paramter = [[FQAHPublicParameter alloc] init];
+    });
+    return paramter;
+}
 
 /**
  *  接口参数

@@ -22,9 +22,12 @@
 #endif
 //////////////////////////////////////
 
+//////////////////////////////////
+#define HOTYQ_API_VERSION @"0305" //// API 版本号
+//////////////////////////////////
 
 #ifdef IS_OFF_LINE
-#define HOTYQ_JAVA_API @"http://www.hotyq.com:8098/api/0302/"
+#define HOTYQ_JAVA_API @"http://www.hotyq.com:8098/api/" HOTYQ_API_VERSION @"/"
 #else
 #define HOTYQ_JAVA_API @"https://www.hotyq.com:8098/api/0302/"          //线上接口
 #endif

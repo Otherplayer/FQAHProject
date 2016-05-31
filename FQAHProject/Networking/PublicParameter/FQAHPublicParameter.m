@@ -66,18 +66,7 @@
 //    NSString *IDFA = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
 //    NSString *uuid = IDFA;
 //    
-//    NSDictionary *publicParameter = [NSDictionary dictionaryWithObjectsAndKeys:
-//                                     uid, @"uid",
-//                                     app_token, @"app_token",
-//                                     hardwareStr,@"hardware",
-//                                     size,@"screen_size",
-//                                     phoneModel,@"app_type",
-//                                     phoneVersion, @"app_os_ver",
-//                                     appVersion, @"app_ver",
-//                                     appName,@"app_name",
-//                                     @"ios",@"app_os",
-//                                     devToken,@"app_umeng",
-//                                     uuid,@"app_id", nil];
+//    NSDictionary *publicParameter;
 //    return publicParameter;
 //    
 //    

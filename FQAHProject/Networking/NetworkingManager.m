@@ -15,7 +15,7 @@
  * API URL 调用参数
  */
 
-NSString *const kAPI_AD_Launch = HOTYQ_JAVA_API @"indexdata/startAdv.do";
+NSString *const kAPI_AD_Launch = HOTYQ_JAVA_API @"search/listItem.do";
 
 
 NSString *const kAPI_PAGE = @"page";
